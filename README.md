@@ -24,8 +24,8 @@ This project was solely created as a personal challenge and for learning uses on
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/fcmarcelino0/CalculatorChallenge.git
-   cd CalculatorChallenge
+   git clone https://github.com/fcmarcelino0/JavaChallenge.git
+   cd JavaChallenge
    ```
 
 2. Install docker container with file 'docker-compose.yml'
