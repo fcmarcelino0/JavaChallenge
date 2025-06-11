@@ -28,7 +28,7 @@ This project was solely created as a personal challenge and for learning uses on
    cd CalculatorChallenge
    ```
 
-2. Install docker container with file 'docker-compose.yml' (ignore this step for now because project is not using kafka communication between modules)
+2. Install docker container with file 'docker-compose.yml'
    ```sh
    # Commands to use
    docker-compose up -d  -> create container
