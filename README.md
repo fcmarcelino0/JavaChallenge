@@ -17,7 +17,7 @@ This project was solely created as a personal challenge and for learning uses on
 
 ### Prerequisites
 
-- Maven (Java 17)
+- Maven (Java 21)
 
 
 ### Installation
