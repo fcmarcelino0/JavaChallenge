@@ -8,10 +8,10 @@ public class CalculatorService {
 
     public Calculator calculate(Calculator request) {
         double res = switch (request.getOperation().toLowerCase()) {
-            case "add" -> request.getA() + request.getB();
-            case "subtract" -> request.getA() - request.getB();
-            case "multiply" -> request.getA() * request.getB();
-            case "divide" -> {
+            case "sum" -> request.getA() + request.getB();
+            case "subtraction" -> request.getA() - request.getB();
+            case "multiplication" -> request.getA() * request.getB();
+            case "division" -> {
                 if (request.getB() == 0) {
                     throw new IllegalArgumentException("Division by zero");
                 }
