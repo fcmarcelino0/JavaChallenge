@@ -48,7 +48,7 @@ Copy the API URL "http://localhost:8080/api/calculate/sum?a=1&b=2"
 Change "sum" with the desired operation("sum", "subtraction", "multiplication", or "division")  
 Change the values "a" and "b" with your values to use
 
-
+(AT THE MOMENT, NO KAFKA COMMUNICATION BEING USED BETWEEN MODULES, JUST SIMPLE RESTFUL API RESPONSE)
 
 The result of the API should return 200 OK with the result of the calculation
 
