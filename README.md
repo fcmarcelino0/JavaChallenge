@@ -17,18 +17,18 @@ This project was solely created as a personal challenge and for learning uses on
 
 ### Prerequisites
 
-- Maven (Java 17)
+- Maven (Java 21)
 
 
 ### Installation
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/fcmarcelino0/CalculatorChallenge.git
-   cd CalculatorChallenge
+   git clone https://github.com/fcmarcelino0/JavaChallenge.git
+   cd JavaChallenge
    ```
 
-2. Install docker container with file 'docker-compose.yml' (ignore this step for now because project is not using kafka communication between modules)
+2. Install docker container with file 'docker-compose.yml'
    ```sh
    # Commands to use
    docker-compose up -d  -> create container
@@ -48,7 +48,7 @@ Copy the API URL "http://localhost:8080/api/calculate/sum?a=1&b=2"
 Change "sum" with the desired operation("sum", "subtraction", "multiplication", or "division")  
 Change the values "a" and "b" with your values to use
 
-
+(AT THE MOMENT, NO KAFKA COMMUNICATION BEING USED BETWEEN MODULES, JUST SIMPLE RESTFUL API RESPONSE)
 
 The result of the API should return 200 OK with the result of the calculation
 
